@@ -38,7 +38,7 @@ public class DetailsActivity extends AppCompatActivity {
         return today;
     }
     private String getRandomCategory(){
-        String[] categories={"ZEN","BUDHIST","YOGA"};
+        String[] categories={"Alumni","Alumni","Alumni"};
         Random random=new Random();
         int index=random.nextInt(categories.length-1);
         return categories[index];
